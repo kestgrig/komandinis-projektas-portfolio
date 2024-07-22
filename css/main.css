@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0A0119;
+}
+
+.headerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    gap: 690px;
+    padding-right: 25px;
+}
+
+.leftWord {
+    color: #F9F5FF ;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.navigationContainer {
+    display: flex;
+}
+
+.navigationContainer nav {
+    display: flex;
+}
+
+.navigationContainer nav ul {
+    display: flex;
+    gap: 70px;
+}
+
+.list {
+    list-style: none;
+    font-size: 21px;
+    color: #F9F5FF;
+    text-decoration: none;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 260px;
+    align-items: center;
+    padding-right: 20px;
+    color: #FAFBFF;
+}
+
+.firstSectionName {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.firstSectionJob {
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.firstSectionAbout {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.firstSectionBtn {
+    border-radius: 10px;
+    padding: 5.25px 15.7px;
+    margin-top: 25px;
+}
+
+.firstSectionBtn:hover {
+    cursor: pointer;
+}
+
+.centerWord {
+    color: #FAFBFF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.container {
+    margin: 0;
+    color: #FAFBFF;
+}
+
+.sectionTwo {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 320px;
+    align-items: center;
+}
+
+.sectionTwo-p-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.foto {
+    max-width: 300px;
+}
+
+.text {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.button {
+    display: block;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5.25px 15.7px;
+}
+
+.button:hover {
+    background-color: grey;
+    color: white;
+}
+
+
+.projects {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "ticktok-1 fintech-1 e-commerce"
+        "tictok-2 fintech-2 fintech";
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 50px;
+    color: #FAFBFF;
+    margin-bottom: 50px;
+}
+
+.ticktok-1 {
+    grid-area: ticktok-1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 80px;
+}
+
+.fintech-1 {
+    grid-area: fintech-1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 40px;
+}
+
+.e-commerce {
+    grid-area: e-commerce;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.tictok-2 {
+    grid-area: tictok-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 80px;
+}
+
+.fintech-2 {
+    grid-area: fintech-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 40px;
+}
+
+.title-projects-1 {
+    color: #FAFBFF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.projects-img {
+    width: 350px;
+}
+
+.projects-img:hover {
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.title-projects-2 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.links-projects {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    gap: 15px;
+    font-size: 12px;
+}
+
+.html-1 {
+    border: 3px solid #FAFBFF;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.css-1 {
+    border: 3px solid #FAFBFF;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.javascript-1 {
+    border: 3px solid #FAFBFF;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.bottomContainer {
+    color: #FAFBFF;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 500px;
+}
+
+.projectinmind {
+    font-size: 16px;
+    padding-bottom: 23px;
+}
+
+.contactMe {
+    font-size: 23px;
+    padding-bottom: 14px;
+}
+
+.email {
+    font-size: 32px;
+}
+
+.footerContainerone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 100px;
+    padding: 0 160px 50px 130px;
+    justify-content: space-between;
+}
+
+.femiblaq {
+    color: #F9F5FF;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.iconslist {
+    display: flex;
+}
+
+.iconslist nav ul {
+    display: flex;
+    gap: 75px;
+}
+
+.iconslist nav ul li {
+    display: flex;
+    font-size: 24px;
+    color: #F9F5FF;
+}
+
+
+.footerContainersecond {
+    display: flex;
+    color: #F9F5FF;
+    height: 150px;
+    padding: 0px 125px;
+    font-size: 16px;
+}
+
+
+.fa-copyright {
+    font-size: 14px;
+    padding: 3px 5px;
+}
+
+.iconslist nav ul li:hover {
+    color: white;
+    cursor: pointer;
+}
