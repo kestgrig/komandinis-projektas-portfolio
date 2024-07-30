@@ -14,7 +14,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://github.com/kestgrig/portfolio
 
-Design: [Portfolio](<[<https://www.figma.com/design/9mV6rCFOEd1ptuZ4JBovVS/Collab-landing-page-design-(Community)?node-id=1-971>](https://www.figma.com/design/94SoTkTcpM6uuEcleoYIYr/PORTFOLIO-DESIGN-KIT-(Community)?node-id=101-7)>)
+Design: [Portfolio](<https://www.figma.com/design/94SoTkTcpM6uuEcleoYIYr/PORTFOLIO-DESIGN-KIT-(Community)?node-id=101-7>)
 
 ## 🎯 Project features/goals
 
